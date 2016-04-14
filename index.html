@@ -5,25 +5,9 @@
     <title>Trebor's Github Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/index.css"  />
+    <link rel="stylesheet" href="css/index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-    <style type="text/css">
-    /*.jumbotron {
-        margin-top: 2em;
-        background-image: url(images/elcapitan.jpg);
-        background-size: 100% 100%;
-        padding-top: 10%;
-        padding-bottom: 10%;
-    }
-    
-    .jumbotron h1,.jumbotron p {
-        color: #ffffff;
-        text-align: right;
-    }*/
-    
-    </style>
 </head>
 
 <body>
@@ -38,18 +22,34 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav col-sm-8 col-sm-push-4">
-                    <li><a href="#">AboutMe</a></li>
-                    <li><a href="#about">Develop Skills</a></li>
-                    <li><a href="#contact">Certificates</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about" data-toggle="collapse" data-target=".navbar-collapse">AboutMe</a></li>
+                    <li><a href="#skills" data-toggle="collapse" data-target=".navbar-collapse">Develop Skills</a></li>
+                    <li><a href="#certificates" data-toggle="collapse" data-target=".navbar-collapse">Certificates</a></li>
+                    <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse">Contact</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="jumbotron">
+    <div class="jumbotron jumbotron-main">
         <h1>Hi,I'm Trebor.</h1>
         <p>A full-stack IT engineer.
             <p>
+    </div>
+    <div id="about" class="jumbotron jumbotron-aboutme">
+        <h3>About Me</h3>
+        
+    </div>
+    <div id="skills" class="jumbotron jumbotron-skills">
+        <h3>Developer Skills</h3>
+        
+    </div>
+    <div id="certificates" class="jumbotron jumbotron-certificates">
+        <h3>Certificates</h3>
+        
+    </div>
+    <div id="contact" class="jumbotron jumbotron-footer">
+        <h3>Contact</h3>
+        <p>trebot1109@gmail.com</p>
     </div>
 </body>
 
